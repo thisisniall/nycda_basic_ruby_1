@@ -40,9 +40,6 @@ def arraymeld (array1, array2)
 	return newhash
 end
 
-
-
-
 # Optional problem: FizzBuzz
 def FizzBuzz()
 	for i in 0..100
@@ -59,36 +56,3 @@ def FizzBuzz()
 end
 FizzBuzz()
 
-# App Academy Pre-work #17 (I did this in ~march of this year
-# But haven't touched ruby since july and wanted to work through it again
-# I remember it being a frustrating but interesting problem
-
-# Write a method that takes in a string of lowercase letters (no
-# uppercase letters, no repeats). Consider the *substrings* of the
-# string: consecutive sequences of letters contained inside the string.
-# Find the longest such string of letters that is a palindrome.
-#
-# Note that the entire string may itself be a palindrome.
-#
-# You may want to use Array's `slice(start_index, length)` method,
-# which returns a substring of length `length` starting at index
-# `start_index`:
-
-# These are tests to check that your code is working. After writing
-# # your solution, they should all print true.
-
-def longest_palindrome (string)
-end
-
-puts(
-  'longest_palindrome("abcbd") == "bcb": ' +
-  (longest_palindrome('abcbd') == 'bcb').to_s
-)
-puts(
-  'longest_palindrome("abba") == "abba": ' +
-  (longest_palindrome('abba') == 'abba').to_s
-)
-puts(
-  'longest_palindrome("abcbdeffe") == "effe": ' +
-  (longest_palindrome('abcbdeffe') == 'effe').to_s
-)
